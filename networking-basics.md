@@ -7,5 +7,9 @@
 
 <!-- checks if remote host is reachable -->
 <!-- sends small packages to google.com and checks the connectivity, waits for reply -->
-
+<!-- ctrl+c to stop it -->
 #2. ping google.com
+
+<!--  -->
+
+#3. nslookup google.com
