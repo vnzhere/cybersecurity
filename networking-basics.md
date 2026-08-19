@@ -54,3 +54,20 @@ traceroute to google.com (192.178.134.138), 64 hops max, 40 byte packets
 11  * * *
 12  * *^C
 
+% nslookup google.com
+Server:		2405:201:404f:70b4::c0a8:1d01
+Address:	2405:201:404f:70b4::c0a8:1d01#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 192.178.177.101
+Name:	google.com
+Address: 192.178.177.100
+Name:	google.com
+Address: 192.178.177.113
+Name:	google.com
+Address: 192.178.177.139
+Name:	google.com
+Address: 192.178.177.138
+Name:	google.com
+Address: 192.178.177.102
