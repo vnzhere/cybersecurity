@@ -19,3 +19,12 @@
 #5. Netstat -tuln
 <!--  Gives local, ipv4 and 6 ports along with tcp and udp types.-->
 <!-- Listen state– means waiting for connection -->
+
+
+#6. curl -I https://example.com
+<!-- -I gives headers only
+Content type is html
+Cloudflare introduced 
+http/200 means successful responses
+cf-cache-status:HIT means response served from cloudfare cache. 
+ -->
