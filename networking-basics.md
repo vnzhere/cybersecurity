@@ -10,6 +10,5 @@
 <!-- ctrl+c to stop it -->
 #2. ping google.com
 
-<!--  -->
-
+<!--  DNS lookup; converts domain name into ip address.-->
 #3. nslookup google.com
