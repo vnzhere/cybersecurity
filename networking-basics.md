@@ -10,15 +10,22 @@
 <!-- ctrl+c to stop it -->
 #2. ping google.com
 
+
+
 <!--  DNS lookup; converts domain name into ip address.-->
 #3. nslookup google.com
+
+
 
 #4. traceroute google.com
 <!--  Traces network path for the domain name.-->
 
+
+
 #5. Netstat -tuln
 <!--  Gives local, ipv4 and 6 ports along with tcp and udp types.-->
 <!-- Listen state– means waiting for connection -->
+
 
 
 #6. curl -I https://example.com
