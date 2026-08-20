@@ -12,3 +12,6 @@
 
 <!--  DNS lookup; converts domain name into ip address.-->
 #3. nslookup google.com
+
+#4. traceroute google.com
+<!--  Traces network path for the domain name.-->
