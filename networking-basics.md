@@ -34,6 +34,6 @@
 <!-- -I gives headers only
 Content type is html
 Cloudflare introduced 
-http/200 means successful responses
+http/2---200 means successful responses
 cf-cache-status:HIT means response served from cloudfare cache. 
  -->
