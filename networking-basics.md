@@ -15,3 +15,7 @@
 
 #4. traceroute google.com
 <!--  Traces network path for the domain name.-->
+
+#5. Netstat -tuln
+<!--  Gives local, ipv4 and 6 ports along with tcp and udp types.-->
+<!-- Listen state– means waiting for connection -->
