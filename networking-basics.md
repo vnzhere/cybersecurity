@@ -28,6 +28,8 @@
 
 
 
+<!-- make a network request and show what server sends back -->
+<!-- Use curl to communicate with a server directly from terminal without opening a browser -->
 #6. curl -I https://example.com
 <!-- -I gives headers only
 Content type is html
