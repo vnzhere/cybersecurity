@@ -1,4 +1,4 @@
-
+git add . && git commit -m "Add networking and tcpdump basics" && git push
 <!-- #1. checks your machine network info -->
 <!--  lists your network interface and their ip addresses  -->
 #1.ip addr show
