@@ -57,3 +57,6 @@ cf-cache-status:HIT means response served from cloudfare cache.
  2. host google.com--- filter google traffic
  3. -v--- shows extra packet info -->
 
+#4. watch tcp connection packets: sudo tcpdump -i en0'tcp[tcpflags]&(tcp-syn/tcp-ack)!=0' -c 6
+
+<!-- 1. shows tcp SYN/ACK packets used while establishing connections -->
