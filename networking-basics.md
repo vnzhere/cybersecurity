@@ -60,3 +60,8 @@ cf-cache-status:HIT means response served from cloudfare cache.
 #4. watch tcp connection packets: sudo tcpdump -i en0'tcp[tcpflags]&(tcp-syn/tcp-ack)!=0' -c 6
 
 <!-- 1. shows tcp SYN/ACK packets used while establishing connections -->
+
+#5. save packets for later: sudo tcpdump -i en0 -c 20 -w capture.pcap
+<!-- 1. captures 20 packets 
+2. instead of displaying--- it saves them on capture.pcap
+3. later on tools like wireshark, opens file for detailed analysis -->
