@@ -37,3 +37,16 @@ Cloudflare introduced
 http/2---200 means successful responses
 cf-cache-status:HIT means response served from cloudfare cache. 
  -->
+
+
+ <!-- read real packets of tcpdump -->
+
+ #1. ipconfig or  ip link show
+ <!-- 1. show all network of your device
+ 2. en0--- wifi interface
+ lo0--- lookback ie device talking to itself -->
+
+ #2. capture 10 packets: sudo tcpdump -i en0 -c 10
+ <!-- 1. tcpdump--- watches network package going through your device
+ 2. -i en0--- listens to wifi traffic
+ 3. -c 10 ---- stop after 10 packets -->
