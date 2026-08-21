@@ -50,3 +50,10 @@ cf-cache-status:HIT means response served from cloudfare cache.
  <!-- 1. tcpdump--- watches network package going through your device
  2. -i en0--- listens to wifi traffic
  3. -c 10 ---- stop after 10 packets -->
+
+
+ #3. capture traffic from google: sudo tcpdump -i en0 -c 10 host google.com -v
+ <!-- 1. shows packets to/from google
+ 2. host google.com--- filter google traffic
+ 3. -v--- shows extra packet info -->
+
