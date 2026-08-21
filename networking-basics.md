@@ -65,3 +65,7 @@ cf-cache-status:HIT means response served from cloudfare cache.
 <!-- 1. captures 20 packets 
 2. instead of displaying--- it saves them on capture.pcap
 3. later on tools like wireshark, opens file for detailed analysis -->
+
+
+#6. use curl https:example.com
+<!-- shows tcp connection happening -->
